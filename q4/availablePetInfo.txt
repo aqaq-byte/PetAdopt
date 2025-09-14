@@ -1,0 +1,14 @@
+1:user1:Cat:Tabby:2:Female:0:0:0:1:0::Hermione Granger:hermione@hotmail.com
+2:user2:Dog:Husky:3:Male:0:0:0:0:1::Harry Potter:harry@hotmail.com
+3:user3:Dog:Golden Retriever:5:Female:0:0:0:0:1::Ron Wealey:ron@hotmail.com
+4:user4:Dog:Labrador:3:Male:0:0:0:0:1::Draco Malfoy:draco@hotmail.com
+5:user5:Cat:Siamese:1:Female:0:1:0:0:0::Neville Longbottom:neville@hotmail.com
+6:user6:Cat:Tabby:6:Male:0:0:0:0:1::Luna Lovegood:luna@hotmail.com
+7:user7:Cat:Himalayan:1:Male:1:1:0:0:0::George Weasley:george@hotmail.com
+8:user8:Dog:Labrador:0.3:Female:0:1:0:0:0::Hagrid:hagrid@hotmail.com
+9:user9:Dog:Poodle:4:Female:0:0:0:0:1::Sirius Black:sirius@hotmail.com
+10:user10:Dog:Poodle:0.5:Male:1:1:0:0:0::Fred Weasley:fred@hotmail.com
+11:user11:Cat:Tabby:0.5:Female:0:0:0:0:1::George Weasley:george@hotmail.com
+12:user12:Cat:Ragdoll:1:Male:0:0:0:0:1::Molly Weasley:molly@hotmail.com
+13:user13:Dog:Bulldog:0.2:Male:0:0:0:0:1::Ginny Weasley:ginny@hotmail.com
+

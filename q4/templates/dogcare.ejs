@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title><%= title %></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <%- include("./header") %>
+    <%- include("./sidebar") %>
+
+
+    <div id=content>
+        <div id=instructions>
+
+            <h2>Dog Care Instructions</h2>
+            <ol>
+                <li><strong>Feeding</strong>
+                    <ul>
+                        <li><strong>Diet:</strong> <br>Choose a high-quality dog food that is appropriate for your dog’s
+                            age, size, and health needs.<br>Puppies, adult dogs, and senior dogs have different
+                            nutritional requirements.</li>
+                        <li><strong>Portion size:</strong> <br>Follow the feeding guidelines on the dog food packaging
+                            or consult with your vet to determine how much to feed. <br>Overfeeding can lead to obesity,
+                            so monitor your dog's weight.</li>
+                        <li><strong>Fresh water:</strong> <br>Always provide fresh water for your dog. <br>Some dogs may
+                            drink more or less depending on their activity levels and weather conditions.</li>
+                        <li><strong>Treats:</strong> <br>Treats should be given in moderation. <br>Ensure they are safe
+                            and healthy, and avoid treats with too many calories.<br>Treats should make up no more than
+                            10% of your dog's daily calorie intake.</li>
+                    </ul>
+                </li>
+
+                <li><strong>Exercise & Mental Stimulation</strong>
+                    <ul>
+                        <li><strong>Regular exercise:</strong> <br>Dogs need daily exercise.<br> Depending on the breed
+                            and energy level, this may include walks, runs, or playtime in the yard. <br>Aim for at
+                            least 30 minutes to 1 hour of physical activity each day.</li>
+                        <li><strong>Mental stimulation:</strong> <br>Dogs also need mental stimulation to keep them
+                            engaged and happy.<br> Puzzle toys, training sessions, and interactive games help keep their
+                            brains sharp.</li>
+                    </ul>
+                </li>
+
+                <li><strong>Grooming</strong>
+                    <ul>
+                        <li><strong>Brushing:</strong> <br>Regular brushing helps to reduce shedding and prevent
+                            matting, especially in long-haired breeds. <br>Brush your dog at least once a week, or more
+                            frequently for dogs with thick or long coats.</li>
+                        <li><strong>Bathing:</strong> <br>Dogs generally need a bath every 1-3 months, or as
+                            needed.<br>Use dog-specific shampoos and make sure to rinse thoroughly.<Br>Frequent bathing
+                            can dry out their skin, so avoid overdoing it.</li>
+                        <li><strong>Nail trimming:</strong> <br>Trim your dog's nails every 2-4 weeks or as
+                            needed.<br>If you hear their nails clicking on the floor, it’s time for a trim. <br>Be
+                            careful not to cut too short, as this can cause bleeding.</li>
+                        <li><strong>Ear care:</strong> Check your dog’s ears regularly for dirt or wax buildup.<br>Clean
+                            the outer part of the ear with a damp cloth, and consult your vet if you notice signs of
+                            infection (redness, odor, or discharge).</li>
+                    </ul>
+                </li>
+
+                <li><strong>Health & Vet Care</strong>
+                    <ul>
+                        <li><strong>Vaccinations:</strong> <br>Keep your dog's vaccinations up to date according to your
+                            vet's recommendations (typically annual or every 3 years). <br>This protects against common
+                            diseases such as rabies, parvovirus, and distemper.</li>
+                        <li><strong>Parasite prevention:</strong> <br>Use flea, tick, and heartworm preventatives
+                            regularly, especially if your dog spends time outdoors. <br>Consult with your vet to
+                            determine the right prevention plan.</li>
+                        <li><strong>Annual check-ups:</strong> <br>Schedule regular vet visits to ensure your dog's
+                            overall health. <br>Annual wellness exams include vaccinations, dental checkups, and
+                            screenings for common issues like arthritis, diabetes, or heart disease.</li>
+                        <li><strong>Signs of illness:</strong> <br>Be vigilant for signs of illness, such as changes in
+                            appetite, behavior, weight, or bathroom habits. <br>If you notice anything unusual, visit
+                            your vet promptly.</li>
+                    </ul>
+                </li>
+
+                <li><strong>Training & Socialization</strong>
+                    <ul>
+                        <li><strong>Basic commands:</strong> <br>Train your dog with basic commands such as sit, stay,
+                            come, and leave it. <br>Positive reinforcement (treats and praise) works best to encourage
+                            good behavior.</li>
+                        <li><strong>Socialization:</strong> <br>Expose your dog to different people, animals, and
+                            environments from an early age. <br>This helps them develop confidence and reduces the
+                            likelihood of fear-based aggression or anxiety.</li>
+                        <li><strong>Leash training:</strong> <br>Start leash training early to help your dog walk calmly
+                            on a leash. <br>Use a comfortable collar or harness and teach them to walk beside you
+                            without pulling.</li>
+                    </ul>
+                </li>
+
+                <li><strong>Safety</strong>
+                    <ul>
+                        <li><strong>Secure your home:</strong> <br>Ensure that your home is safe for your dog. <br>Keep
+                            hazardous items (like chemicals, sharp objects, or small items they could swallow) out of
+                            reach. <br>Consider using baby gates to limit access to dangerous areas.</li>
+                        <li><strong>Identification:</strong> <br>Make sure your dog has proper identification, such as a
+                            collar with ID tags and a microchip. <br>This increases the chances of getting them back if
+                            they get lost.</li>
+                        <li><strong>Car safety:</strong> <br>Use a dog seat belt harness or a crate when traveling by
+                            car to keep your dog safe and secure.</li>
+                        <li><strong>Weather precautions:</strong><br>In extreme weather conditions (hot or cold), be
+                            cautious about your dog’s exposure. <br>Never leave them in a parked car, and make sure they
+                            have shelter and fresh water when outdoors.</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+        <p><br></p>
+
+    </div>
+
+<%- include("./footer") %>
+
+</body>
+
+</html>

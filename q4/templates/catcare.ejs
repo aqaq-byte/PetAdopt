@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title><%= title %></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <%- include("./header") %>
+    <%- include("./sidebar") %>
+
+
+    <div id=content>
+        <div id=instructions>
+
+            <h2>Cat Care Instructions</h2>
+            <ol>
+                <li><strong>Feeding</strong>
+                    <ul>
+                        <li><strong>Diet:</strong> <br>Choose high-quality cat food that meets your cat's nutritional
+                            needs. <br>You can offer a mix of wet and dry food. <br>Make sure the food is
+                            age-appropriate (kitten, adult, senior).</li>
+                        <li><strong>Portion size:</strong> <br>Follow the guidelines on the food packaging or consult
+                            with your vet to determine how much to feed. <br>Overfeeding can lead to obesity.</li>
+                        <li><strong>Fresh water:</strong> <br>Always provide fresh water. <br>Some cats prefer running
+                            water, so consider a cat water fountain.</li>
+                        <li><strong>Treats:</strong> <br>Offer occasional treats, but don’t overdo it.<br>Treats should
+                            make up no more than 10% of your cat’s daily intake.</li>
+                    </ul>
+                </li>
+                <li><strong>Litter Box</strong>
+                    <ul>
+                        <li><strong>Location:</strong> <br>Place the litter box in a quiet, accessible area. <br>Make
+                            sure it's easy for your cat to reach but not too close to food or water.</li>
+                        <li><strong>Cleanliness:</strong> <br>Scoop the litter box at least once a day and change the
+                            litter regularly (about once a week or more often depending on the number of cats).
+                            <br>Clean the box with mild soap and water—avoid harsh chemicals.</li>
+                        <li><strong>Litter type:</strong> <br>Some cats have preferences for certain types of litter.
+                            <br>Try different kinds (clumping, non-clumping, silica gel, etc.) and observe which your
+                            cat likes best.</li>
+                    </ul>
+                </li>
+                <li><strong>Grooming</strong>
+                    <ul>
+                        <li><strong>Brushing:</strong> <br>Regular brushing helps prevent matting and reduces shedding.
+                            <br>Short-haired cats may need less grooming, while long-haired cats require more frequent
+                            brushing.</li>
+                        <li><strong>Nail trimming:</strong> <br>Trim your cat’s nails every 1-2 weeks. <br>If you’re
+                            unsure how to do it, ask your vet to show you the proper technique.</li>
+                        <li><strong>Bathing:</strong> <br>Cats generally don’t need baths unless they get into something
+                            sticky or smelly. <br>If necessary, use a cat-specific shampoo.</li>
+                    </ul>
+                </li>
+                <li><strong>Health & Vet Care</strong>
+                    <ul>
+                        <li><strong>Vaccinations:</strong> <br>Keep up with regular vaccinations as recommended by your
+                            vet. <br>Usually they are yearly or every 3 years.</li>
+                        <li><strong>Parasite prevention:</strong> <br>Regularly administer flea and tick preventatives
+                            and deworming treatments as advised by your vet.</li>
+                        <li><strong>Annual check-ups:</strong> <br>Schedule a yearly wellness check to monitor your
+                            cat’s overall health.</li>
+                        <li><strong>Signs of illness:</strong> <br>Watch for changes in behavior, appetite, litter box
+                            habits, or weight. <br>If you notice anything unusual, consult your vet promptly.</li>
+                    </ul>
+                </li>
+                <li><strong>Environment & Enrichment</strong>
+                    <ul>
+                        <li><strong>Scratching:</strong> <br>Provide scratching posts or pads to satisfy your cat’s
+                            natural urge to scratch. <br>This also helps protect your furniture.</li>
+                        <li><strong>Toys & playtime:</strong> <br>Engage your cat with toys (balls, feathers, laser
+                            pointers, etc.). <br>Regular playtime is important for their mental stimulation.</li>
+                        <li><strong>Resting spots:</strong> <br>Cats love cozy spots to rest. <br>Offer soft beds,
+                            blankets, or windowsills where they can observe the outdoors.</li>
+                        <li><strong>Cat trees & climbing spaces:</strong> <br>Cats enjoy climbing and perching in high
+                            places. <br>A cat tree or shelves can help satisfy this instinct.</li>
+                    </ul>
+                </li>
+                <li><strong>Litter Box Training</strong>
+                    <ul>
+                        <li><strong>Young kittens:</strong> <br>Most kittens instinctively know where to use the litter
+                            box. <br>Show them where it is, and they’ll likely start using it right away. <br>If they
+                            have accidents, gently place them in the box after meals or naps.</li>
+                        <li><strong>Accidents:</strong> <br>If your adult cat starts having accidents outside the box,
+                            it could be due to stress, a health issue, or a dirty litter box. <br>Clean up accidents
+                            thoroughly with an enzymatic cleaner to eliminate odors.</li>
+                    </ul>
+                </li>
+                <li><strong>Bonding and Behavior</strong>
+                    <ul>
+                        <li><strong>Respect their space:</strong> <br>Cats are independent but still need companionship.
+                            <br>Let them come to you for affection, but don’t force it.</li>
+                        <li><strong>Cuddles and attention:</strong> <br>Some cats love attention, while others prefer
+                            more space. <br>Get to know your cat’s personality and respect their boundaries.</li>
+                        <li><strong>Behavior problems:</strong> <br>If your cat exhibits unwanted behavior like
+                            excessive meowing, scratching, or aggression, talk to your vet. <br>They can help identify
+                            the cause, whether it’s physical or behavioral.</li>
+                    </ul>
+                </li>
+                <li><strong>Safety</strong>
+                    <ul>
+                        <li><strong>Indoor vs. outdoor:</strong> <br>Indoor cats live longer, healthier lives than
+                            outdoor cats. <br>If you do allow your cat outside, make sure they have a collar with ID
+                            tags and consider microchipping.</li>
+                        <li><strong>Toxic plants and foods:</strong> <br>Keep your cat away from toxic plants. <br>Some
+                            include lilies, poinsettias, ivy and foods like chocolate, onions, and grapes.</li>
+                        <li><strong>Secure your home:</strong> <br>Keep dangerous items like cleaning supplies, cords,
+                            or small objects out of reach. <br>Make sure windows and balconies are secure.</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+        <p><br></p>
+
+    </div>
+
+    <%- include("./footer") %>
+
+</body>
+
+</html>

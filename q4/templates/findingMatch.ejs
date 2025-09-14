@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finding pet match</title>
+</head>
+<body>
+    <%- include("./header") %>
+    <%- include("./sidebar") %>
+
+    <div id=content>
+    <h3>Matches found for you:</h3>
+    <ul>
+        <% if (pets.length > 0) { %>
+            <% pets.forEach(pet => { %>
+                <li>
+                    <% if (pet.catOrDog === 'Cat') { %>
+                        Cat
+                    <% } else { %>
+                        Dog
+                    <% } %>
+                    <br>
+                    <strong>Breed:</strong> <%= pet.catDogBreeds %><br>
+                    <strong>Age Category:</strong> <%= pet.ageCategory %><br>
+                    <strong>Gender:</strong> <%= pet.femOrMale %><br>
+                    <% if (pet.moreDogs) { %>
+                        Gets along with other dogs
+                        <br>
+                    <% } %>
+                    <% if (pet.moreCats) { %>
+                        Gets along with other cats
+                        <br>
+                    <% } %>
+                    <% if (pet.noPets) { %>
+                        Requires to be the only pet at home
+                        <br>
+                    <% } %>
+                    <% if (pet.moreChildren) { %>
+                        Gets along with smaller children
+                        <br>
+                    <% } %>
+                    <br>
+                </li>
+            <% }); %>
+        <% } else { %>
+            0 matches for your criteria. Check again soon!
+        <% } %>
+    </ul>
+    </div>
+    <%- include("./footer") %>
+</body>
+</html>
